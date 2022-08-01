@@ -934,6 +934,7 @@ static struct {
   // xterm arrows
     {"\x1b[1;2A",    TB_KEY_ARROW_UP,    TB_MOD_SHIFT                           },
     {"\x1b[1;3A",    TB_KEY_ARROW_UP,    TB_MOD_ALT                             },
+    {"\x1b[1;9A",    TB_KEY_ARROW_UP,    TB_MOD_ALT                             },
     {"\x1b[1;4A",    TB_KEY_ARROW_UP,    TB_MOD_ALT | TB_MOD_SHIFT              },
     {"\x1b[1;10A",   TB_KEY_ARROW_UP,    TB_MOD_ALT | TB_MOD_SHIFT              },
     {"\x1b[1;5A",    TB_KEY_ARROW_UP,    TB_MOD_CTRL                            },
@@ -944,6 +945,7 @@ static struct {
 
     {"\x1b[1;2B",    TB_KEY_ARROW_DOWN,  TB_MOD_SHIFT                           },
     {"\x1b[1;3B",    TB_KEY_ARROW_DOWN,  TB_MOD_ALT                             },
+    {"\x1b[1;9B",    TB_KEY_ARROW_DOWN,  TB_MOD_ALT                             },
     {"\x1b[1;4B",    TB_KEY_ARROW_DOWN,  TB_MOD_ALT | TB_MOD_SHIFT              },
     {"\x1b[1;10B",   TB_KEY_ARROW_DOWN,  TB_MOD_ALT | TB_MOD_SHIFT              },
     {"\x1b[1;5B",    TB_KEY_ARROW_DOWN,  TB_MOD_CTRL                            },
@@ -954,6 +956,7 @@ static struct {
 
     {"\x1b[1;2C",    TB_KEY_ARROW_RIGHT, TB_MOD_SHIFT                           },
     {"\x1b[1;3C",    TB_KEY_ARROW_RIGHT, TB_MOD_ALT                             },
+    {"\x1b[1;9C",    TB_KEY_ARROW_RIGHT, TB_MOD_ALT                             },
     {"\x1b[1;4C",    TB_KEY_ARROW_RIGHT, TB_MOD_ALT | TB_MOD_SHIFT              },
     {"\x1b[1;10C",   TB_KEY_ARROW_RIGHT, TB_MOD_ALT | TB_MOD_SHIFT              },
     {"\x1b[1;5C",    TB_KEY_ARROW_RIGHT, TB_MOD_CTRL                            },
@@ -964,6 +967,7 @@ static struct {
 
     {"\x1b[1;2D",    TB_KEY_ARROW_LEFT,  TB_MOD_SHIFT                           },
     {"\x1b[1;3D",    TB_KEY_ARROW_LEFT,  TB_MOD_ALT                             },
+    {"\x1b[1;9D",    TB_KEY_ARROW_LEFT,  TB_MOD_ALT                             },
     {"\x1b[1;4D",    TB_KEY_ARROW_LEFT,  TB_MOD_ALT | TB_MOD_SHIFT              },
     {"\x1b[1;10D",   TB_KEY_ARROW_LEFT,  TB_MOD_ALT | TB_MOD_SHIFT              },
     {"\x1b[1;5D",    TB_KEY_ARROW_LEFT,  TB_MOD_CTRL                            },
